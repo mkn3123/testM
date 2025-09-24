@@ -1,0 +1,60 @@
+{
+  "applicationId" : "ed957acc-5a24-4bf0-ae08-877d4b1ea4f6",
+  "applicationName" : "Xactly Plan -  Manoj (Git Disconnected)",
+  "icon" : "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "sections" : [ {
+    "name" : "Plan Effectiveness",
+    "icon" : "Apps",
+    "pageDefinitionId" : "e281c20c-756c-4016-a6f8-4baf8d9f04a4",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Segment Configuration",
+    "icon" : "Apps",
+    "pageDefinitionId" : "c0ddccc8-f64d-4eee-b536-0f12d8864ac3",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Segment Modeling",
+    "icon" : "Apps",
+    "pageDefinitionId" : "0a46fca2-de69-4470-bfae-be93cb8e18bb",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "test",
+    "icon" : "Address Book",
+    "pageDefinitionId" : "13ec3f93-019a-494e-8671-8754bbbaaf09",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Quota Planning",
+    "icon" : "Address Book",
+    "pageDefinitionId" : "ca26feb6-281b-4c8c-b2e8-37ab1b4b1cef",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Test M",
+    "icon" : "Alert Filled Circle",
+    "pageDefinitionId" : "d70e3ef4-5c05-47c0-aaa9-0dacced3cb62",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "tagIds" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "github.com/mkn3123/testM",
+  "defaultBranch" : "initial",
+  "applicationI18nFiles" : [ ]
+}
