@@ -1,0 +1,2537 @@
+{
+  "pageDefinitionId" : "c0ddccc8-f64d-4eee-b536-0f12d8864ac3",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_736" : {
+            "type" : "label",
+            "controlId" : "33d62ac5-48be-4adb-a288-319f87cf3e4b",
+            "accessRoles" : null,
+            "controlData" : "<p style=\"text-align: left; padding: 8px;\"><strong><span style=\"font-size: 24pt; font-family: Poppins, Arial, sans-serif;\">Segment Configuration</span></strong></p>\n<p style=\"text-align: left; padding: 8px;\"><span style=\"font-size: 12pt; font-family: Poppins, Arial, sans-serif; font-weight: 500;\"><span style=\"font-size: 12pt; font-family: Poppins, Arial, sans-serif; font-weight: 500; word-break: normal;\">Please select a Plan Year and Scenario to view the corresponding segment configuration.</span></span></p>",
+            "layoutSize" : 66.66,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "events" : [ ]
+          },
+          "control_735" : {
+            "type" : "label",
+            "controlId" : "16cb03e2-02f2-476e-ab63-3a5d8873bac3",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : true,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "<p><img style=\"float: right;\" src=\"data:image/png;base64,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\" alt=\"\" width=\"185\" height=\"44\" /></p>",
+            "layoutSize" : 33.33,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_644" : {
+            "type" : "page_config",
+            "controlId" : "bb5d2361-c0f1-4a59-b940-bc7bef8548da",
+            "useGreyBackgroundPage" : true
+          },
+          "control_646" : {
+            "type" : "dropdown",
+            "controlId" : "0a6b2106-32c0-4f3a-aa24-555d86f5b186",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_plan_year_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0a6b2106-32c0-4f3a-aa24-555d86f5b186",
+              "handlers" : [ "assignCurrentVariable" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0a6b2106-32c0-4f3a-aa24-555d86f5b186",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_time",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_plan_year"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "labelText" : "Plan Year",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_647" : {
+            "type" : "dropdown",
+            "controlId" : "63021144-191a-46ee-af11-9fd83279b0a3",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_scenario_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63021144-191a-46ee-af11-9fd83279b0a3",
+              "handlers" : [ "assignCurrentVariable" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63021144-191a-46ee-af11-9fd83279b0a3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenarioon",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "63021144-191a-46ee-af11-9fd83279b0a3",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_scenario",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "labelText" : "Scenario",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "whereClauseVariable" : null
+          },
+          "control_648" : {
+            "type" : "label",
+            "controlId" : "c6e96de6-9832-4c29-8787-1071eb6a2505",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 50,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_649" : {
+            "type" : "label",
+            "controlId" : "82b5858b-8a7d-49c4-8e51-0d646982dae4",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"font-size: 12pt;\"><strong><span style=\"font-family: Poppins, Arial, sans-serif;\">Segment Definition.</span></strong></span></p>\n<p><span style=\"font-family: Poppins, Arial, sans-serif; font-size: 16px;\">Click on a segment to adjust the criteria, minimum, and maximum or click on the Add Segment button to add a new segment.</span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_737" : {
+            "type" : "table",
+            "controlId" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_definition",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_definition_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_segment_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenarioon",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ecf34d45-8452-4edc-ae35-2fbf3ffd4ce3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_attribute_scoring_segment_test",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "criteria",
+              "name" : "criteria",
+              "headerName" : "Segment",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "min",
+              "name" : "min",
+              "headerName" : "Min",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "max",
+              "name" : "max",
+              "headerName" : "Max",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "iteration",
+              "name" : "iteration",
+              "headerName" : "Iteration",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "variables" : [ {
+              "name" : "v_scenario",
+              "boundToField" : "iteration"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "whereClauseVariable" : null
+          },
+          "control_651" : {
+            "type" : "button",
+            "controlId" : "6a878a5a-f08e-4fae-b474-a1d12bed19e8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_segment",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "6a878a5a-f08e-4fae-b474-a1d12bed19e8",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "+ Add Segment",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_652" : {
+            "type" : "label",
+            "controlId" : "6bb61a16-957c-4b34-94d9-4f9fc77c0198",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"font-size: 12pt;\"><strong><span style=\"font-family: Poppins, Arial, sans-serif;\">Classification Definition.</span></strong></span></p>\n<p><span style=\"font-family: Poppins, Arial, sans-serif; font-size: 12pt;\">Click on a classification to adjust the criteria, minimum, and maximum or click on the Add Classification button to add a new</span></p>\n<p><span style=\"font-family: Poppins, Arial, sans-serif; font-size: 12pt;\"> classification.</span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_738" : {
+            "type" : "table",
+            "controlId" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_classification",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_classification_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_classification_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenarioon",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f6803cb0-2fb6-4360-ba8d-90aef8b7ee75",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_score_grid_classification_test",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "iteration",
+              "name" : "iteration",
+              "headerName" : "Iteration",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "criteria",
+              "name" : "criteria",
+              "headerName" : "Classification",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "min",
+              "name" : "min",
+              "headerName" : "Min",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "max",
+              "name" : "max",
+              "headerName" : "Max",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "variables" : [ {
+              "name" : "v_scenario",
+              "boundToField" : "iteration"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "whereClauseVariable" : null
+          },
+          "control_654" : {
+            "type" : "button",
+            "controlId" : "4639e6ef-6332-45b1-bbb4-1e70f10af65a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_classification",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "4639e6ef-6332-45b1-bbb4-1e70f10af65a",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "+ Add Classification",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_655" : {
+            "type" : "label",
+            "controlId" : "ebbd0a8f-5194-46fc-aaa8-45d50e27d7ff",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"font-size: 12pt;\"><strong><span style=\"font-family: Poppins, Arial, sans-serif;\">Attribute Definitions</span></strong></span></p>\n<p><span style=\"font-family: Poppins, Arial, sans-serif; font-size: 12pt;\">Add an attribute and assign the corresponding weight below by clicking on the Add Attribute button or adjust the weight of an existing attribute by clicking on a row in the table.</span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_741" : {
+            "type" : "table",
+            "controlId" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_attribute",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_attribute_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_attribute_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenarioon",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "feec2788-dc4b-4e92-9df8-fcb65784337a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_score_grid_weighting_summary_test",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "attribute",
+              "name" : "attribute",
+              "headerName" : "Attribute",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "iteration",
+              "name" : "iteration",
+              "headerName" : "Iteration",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "weighting_ft",
+              "name" : "weighting_ft",
+              "headerName" : "Weight",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "variables" : [ {
+              "name" : "v_scenario",
+              "boundToField" : "iteration"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "whereClauseVariable" : null
+          },
+          "control_657" : {
+            "type" : "button",
+            "controlId" : "4996d14a-4f1e-414f-bec8-c8e0341f1135",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_attribute",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "4996d14a-4f1e-414f-bec8-c8e0341f1135",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "+ Add Attribute",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_658" : {
+            "type" : "label",
+            "controlId" : "151c56be-12d3-409f-a9fb-bea4eb82b764",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"font-family: Poppins, Arial, sans-serif; font-size: 16px;\">Select an attribute from the dropdown menu to filter the table below. Click on a row in the table to adjust the criteria, minimum, and maximum or add new criteria by clicking the Add Criteria button.</span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_659" : {
+            "type" : "dropdown",
+            "controlId" : "f490f14e-7362-41a7-8b36-3a160609ec2a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "f490f14e-7362-41a7-8b36-3a160609ec2a",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filter",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f490f14e-7362-41a7-8b36-3a160609ec2a",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "e_attribute_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f490f14e-7362-41a7-8b36-3a160609ec2a",
+              "handlers" : [ "assignCurrentVariable" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f490f14e-7362-41a7-8b36-3a160609ec2a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_score_dropdown_attribute",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_attribute"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "attribute"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "attribute"
+            },
+            "labelText" : "Attribute",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_660" : {
+            "type" : "label",
+            "controlId" : "0b5e06c0-e72b-4ea9-b46a-8c277393473c",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 25
+          },
+          "control_661" : {
+            "type" : "label",
+            "controlId" : "53b74d81-a532-4c53-8edb-4f817b012f26",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 50,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_662" : {
+            "type" : "button",
+            "controlId" : "a0354962-43b4-40a6-b562-9a2b54fbd79a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_clear_filter",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "a0354962-43b4-40a6-b562-9a2b54fbd79a",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Clear Filter",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_740" : {
+            "type" : "table",
+            "controlId" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_criteria",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_attributes_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filter",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_attribute_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_criteria_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenarioon",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "4c9cbc9e-139f-495c-bb59-85a329147295",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_score_grid_main_test",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "score",
+              "name" : "score",
+              "headerName" : "Score",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "iteration",
+              "name" : "iteration",
+              "headerName" : "Iteration",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "criteria",
+              "name" : "criteria",
+              "headerName" : "Criteria",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "min_ft",
+              "name" : "min_ft",
+              "headerName" : "Min",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "max_ft",
+              "name" : "max_ft",
+              "headerName" : "Max",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "variables" : [ {
+              "name" : "v_attribute",
+              "boundToField" : "attribute"
+            }, {
+              "name" : "v_scenario",
+              "boundToField" : "iteration"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "whereClauseVariable" : null
+          },
+          "control_664" : {
+            "type" : "button",
+            "controlId" : "d56cac8c-b479-4edd-bdef-7a64236c1023",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_criteria",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "d56cac8c-b479-4edd-bdef-7a64236c1023",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "+ Add Criteria",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_665" : {
+            "type" : "label",
+            "controlId" : "68e76d60-099c-43c5-ac46-3d4de57ba605",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 100,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_666" : {
+            "type" : "button",
+            "controlId" : "0d676237-fe7b-4fd5-b816-78103dcbb55a",
+            "accessRoles" : null,
+            "events" : [ ],
+            "controlData" : "Apply Segments",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_667" : {
+            "type" : "label",
+            "controlId" : "3a342f0d-c510-41de-bf20-2d4987886871",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 50,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_668" : {
+            "type" : "slideout",
+            "controlId" : "6e04697c-9cbc-4adb-a970-f660725ade19",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_segment",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6e04697c-9cbc-4adb-a970-f660725ade19",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_segment_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6e04697c-9cbc-4adb-a970-f660725ade19",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_segment_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6e04697c-9cbc-4adb-a970-f660725ade19",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add Segment Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_669" : {
+                      "type" : "input",
+                      "controlId" : "df206e50-b0ae-41be-8665-73052e075737",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_segment_add"
+                      } ],
+                      "labelText" : "Segment",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_670" : {
+                      "type" : "input",
+                      "controlId" : "9ea20303-1af4-434f-b1d9-e216adab20ae",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_segment_added",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "9ea20303-1af4-434f-b1d9-e216adab20ae",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ "validateNonEmpty" ],
+                        "preHandlerArgs" : [ { } ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_segment_min_add"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    },
+                    "control_671" : {
+                      "type" : "input",
+                      "controlId" : "f295d45d-29d6-4650-9c87-fcae41d373f8",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_segment_max_add"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_672" : {
+                      "type" : "button",
+                      "controlId" : "ad5d7e36-3c1a-414b-9196-4b61bd7f52ec",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_segment_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "ad5d7e36-3c1a-414b-9196-4b61bd7f52ec",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_673" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "3454af73-3d65-4a0c-8ebc-76e9e658ba82",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_segment_added",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "3454af73-3d65-4a0c-8ebc-76e9e658ba82",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "INSERT INTO $framework.as_attribute_scoring \n(attribute, criteria,  min, max)\nVALUES\n('Segment', :v_segment_add,  :v_segment_min_add, :v_segment_max_add)",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_674" : {
+            "type" : "slideout",
+            "controlId" : "c6710304-7190-4a11-a543-cc1441e3880f",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_definition",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c6710304-7190-4a11-a543-cc1441e3880f",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_definition_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c6710304-7190-4a11-a543-cc1441e3880f",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_definition_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c6710304-7190-4a11-a543-cc1441e3880f",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Segment Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_675" : {
+                      "type" : "input",
+                      "controlId" : "9f9deb64-273e-4a6a-b27c-5f154d7f68b9",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria"
+                      } ],
+                      "labelText" : "Segment",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : null
+                    },
+                    "control_676" : {
+                      "type" : "input",
+                      "controlId" : "8dd8fc98-cde9-4f3c-a496-e8a73fe1fa38",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_min"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_677" : {
+                      "type" : "input",
+                      "controlId" : "c14ce13b-78c7-49c2-ad1d-3def9c5c1c4c",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_max"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_678" : {
+                      "type" : "button",
+                      "controlId" : "ccd482b9-509f-4c21-b773-9231ae12aac9",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_definition_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "ccd482b9-509f-4c21-b773-9231ae12aac9",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_679" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "cd583404-5100-483f-a152-f30caaa7d587",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_definition_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "cd583404-5100-483f-a152-f30caaa7d587",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "update $framework.as_attribute_scoring\nset criteria = :v_criteria, min = :v_min, max = :v_max\nwhere $id = :v_id",
+                      "layoutSize" : null
+                    },
+                    "control_680" : {
+                      "type" : "button",
+                      "controlId" : "832b393c-9c8d-46c2-b651-a974ae21b448",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_segment_def_confirm_delete",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "832b393c-9c8d-46c2-b651-a974ae21b448",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_681" : {
+            "type" : "modal",
+            "controlId" : "42b2de3f-c5b1-4325-ab70-2019f9653af4",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_segment_def_confirm_delete",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "42b2de3f-c5b1-4325-ab70-2019f9653af4",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_segment_def_confirm_delete_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "42b2de3f-c5b1-4325-ab70-2019f9653af4",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_segment_def_deleted",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "42b2de3f-c5b1-4325-ab70-2019f9653af4",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Delete Segment Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_682" : {
+                      "type" : "label",
+                      "controlId" : "7339df45-9173-4d99-9457-2ed27ae1e83c",
+                      "accessRoles" : null,
+                      "controlData" : "<p>The record will be deleted.</p>",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_683" : {
+                      "type" : "button",
+                      "controlId" : "f0ec984c-d92a-474e-9f99-8f1c36d66899",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_segment_def_confirm_delete_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "f0ec984c-d92a-474e-9f99-8f1c36d66899",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_684" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "e832455c-794f-4183-bab8-96d7c761f186",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_definition_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "e832455c-794f-4183-bab8-96d7c761f186",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "e_segment_def_deleted",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "e832455c-794f-4183-bab8-96d7c761f186",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete * from $framework.as_attribute_scoring where $id = :v_id",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_685" : {
+            "type" : "slideout",
+            "controlId" : "1c29c0bf-ab8d-42e5-a972-d643fd4109be",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_classification",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1c29c0bf-ab8d-42e5-a972-d643fd4109be",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_classification_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1c29c0bf-ab8d-42e5-a972-d643fd4109be",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_add_classification_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1c29c0bf-ab8d-42e5-a972-d643fd4109be",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add Classification Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_686" : {
+                      "type" : "input",
+                      "controlId" : "6ddbe468-b1c3-43b6-baf0-ca6b32185a97",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_classification_add"
+                      } ],
+                      "labelText" : "Classification",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_687" : {
+                      "type" : "input",
+                      "controlId" : "86e985da-868c-46f9-8f1a-29bb8add8b4f",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_classification_min"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    },
+                    "control_688" : {
+                      "type" : "input",
+                      "controlId" : "fefa9ddb-bd14-441b-8eea-76618d2fc525",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_classification_max"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_689" : {
+                      "type" : "button",
+                      "controlId" : "84229fbc-3d8a-4595-83df-578f37fb06e2",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_add_classification_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "84229fbc-3d8a-4595-83df-578f37fb06e2",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_690" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "a38ea30a-ccba-4ab6-b277-6ae4ef8487b9",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_classification_added",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "a38ea30a-ccba-4ab6-b277-6ae4ef8487b9",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "INSERT INTO $framework.as_attribute_scoring \n(attribute, criteria,  min, max)\nVALUES\n('Classification', :v_classification_add,  :v_classification_min, :v_classification_max)",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_691" : {
+            "type" : "slideout",
+            "controlId" : "43b5ce14-af5b-4d9e-bde8-de395488ec19",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_classification",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "43b5ce14-af5b-4d9e-bde8-de395488ec19",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_classification_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "43b5ce14-af5b-4d9e-bde8-de395488ec19",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_edit_classification_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "43b5ce14-af5b-4d9e-bde8-de395488ec19",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Classification Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_692" : {
+                      "type" : "input",
+                      "controlId" : "1471adc9-3d63-4825-9725-6245767de0fd",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_classification"
+                      } ],
+                      "labelText" : "Classification",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_693" : {
+                      "type" : "input",
+                      "controlId" : "d189f462-6ae3-4908-a082-85410efb0df2",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_min"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    },
+                    "control_694" : {
+                      "type" : "input",
+                      "controlId" : "1d534f78-4527-438f-ab60-4ee984dc9d91",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_max"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 50
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_695" : {
+                      "type" : "button",
+                      "controlId" : "e5b8534f-724a-4c84-9b38-3405aeac72b7",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_edit_classification_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "e5b8534f-724a-4c84-9b38-3405aeac72b7",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_696" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "aa8368de-92e4-4f9d-9324-9b6628ac2c89",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_classification_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "aa8368de-92e4-4f9d-9324-9b6628ac2c89",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "update $framework.as_attribute_scoring\nset criteria = :v_classification, min = :v_min, max = :v_max, attribute = 'Classification' \nwhere $id = :v_id",
+                      "layoutSize" : null
+                    },
+                    "control_697" : {
+                      "type" : "button",
+                      "controlId" : "9bd06dd9-e791-4371-abf0-0ffcd72ab456",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_class_detail_confirm_delete",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "9bd06dd9-e791-4371-abf0-0ffcd72ab456",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_698" : {
+            "type" : "modal",
+            "controlId" : "030c0412-f455-4d78-9f38-11f505c6f8ac",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_class_detail_confirm_delete",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "030c0412-f455-4d78-9f38-11f505c6f8ac",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_class_detail_confirm_delete_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "030c0412-f455-4d78-9f38-11f505c6f8ac",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_class_detail_deleted",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "030c0412-f455-4d78-9f38-11f505c6f8ac",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Delete Classification Detail",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_699" : {
+                      "type" : "label",
+                      "controlId" : "146864c1-6a64-4cd0-b923-acf8c98fa49d",
+                      "accessRoles" : null,
+                      "controlData" : "<p>The record will be deleted.</p>",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_700" : {
+                      "type" : "button",
+                      "controlId" : "0a15de8a-3381-4c30-80d8-27545c395a25",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_class_detail_confirm_delete_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "0a15de8a-3381-4c30-80d8-27545c395a25",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_701" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "d737f31c-241f-4048-b30f-717000d5761d",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_classification_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d737f31c-241f-4048-b30f-717000d5761d",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "e_class_detail_deleted",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d737f31c-241f-4048-b30f-717000d5761d",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete * from $framework.as_attribute_scoring where $id = :v_id",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_702" : {
+            "type" : "slideout",
+            "controlId" : "065a61de-e1f3-40b4-9eb8-3ceb48052585",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_attribute",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "065a61de-e1f3-40b4-9eb8-3ceb48052585",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_attribute_added",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "065a61de-e1f3-40b4-9eb8-3ceb48052585",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_add_attribute_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "065a61de-e1f3-40b4-9eb8-3ceb48052585",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add Attribute Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_703" : {
+                      "type" : "input",
+                      "controlId" : "7d6295ac-450f-494d-b55c-8038f22762b4",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_attribute_add"
+                      } ],
+                      "labelText" : "Attribute",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_704" : {
+                      "type" : "input",
+                      "controlId" : "57bde964-b3ce-42ff-a1ca-75534ac05ea9",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_attribute_weight"
+                      } ],
+                      "labelText" : "Weight",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 100
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_705" : {
+                      "type" : "button",
+                      "controlId" : "647adc94-fdf4-4b6e-801f-66473d19f6cc",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_add_attribute_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "647adc94-fdf4-4b6e-801f-66473d19f6cc",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_706" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "531a2d9c-7ab4-4ae2-ab73-f6c4c7bc67f6",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attribute_added",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "531a2d9c-7ab4-4ae2-ab73-f6c4c7bc67f6",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "INSERT INTO $framework.as_attribute_weightings \n(attribute,weight)\nVALUES\n(:v_attribute_add,  :v_attribute_weight)",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_707" : {
+            "type" : "slideout",
+            "controlId" : "d27ca84b-d3b2-43b9-8d41-02cdc5e8e5bb",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_attribute",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d27ca84b-d3b2-43b9-8d41-02cdc5e8e5bb",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_attribute_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d27ca84b-d3b2-43b9-8d41-02cdc5e8e5bb",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_edit_attribute_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d27ca84b-d3b2-43b9-8d41-02cdc5e8e5bb",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Attribute Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_708" : {
+                      "type" : "input",
+                      "controlId" : "76a0fb13-d75f-4871-a1b8-9810887fa18f",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_attribute"
+                      } ],
+                      "labelText" : "Attribute",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_709" : {
+                      "type" : "input",
+                      "controlId" : "a6254205-f79c-4273-8688-e8e97914861a",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_weight"
+                      } ],
+                      "labelText" : "Weight",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_710" : {
+                      "type" : "button",
+                      "controlId" : "3e754df6-317f-44ca-9805-17743c470f91",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_edit_attribute_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "3e754df6-317f-44ca-9805-17743c470f91",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_711" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "635bbdeb-bc38-4df4-b26d-5064cdc125a8",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attribute_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "635bbdeb-bc38-4df4-b26d-5064cdc125a8",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "update $framework.as_attribute_weightings SET\nattribute = :v_attribute, weight = :v_weight\nwhere $id = :v_id",
+                      "layoutSize" : null
+                    },
+                    "control_712" : {
+                      "type" : "button",
+                      "controlId" : "f2d63c57-e231-4669-b4e4-75ff70ec4616",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attribute_confirm_delete",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "f2d63c57-e231-4669-b4e4-75ff70ec4616",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_713" : {
+            "type" : "modal",
+            "controlId" : "298081a2-b149-4061-8149-ec21bef85ebe",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_attribute_confirm_delete",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "298081a2-b149-4061-8149-ec21bef85ebe",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_attribute_deleted",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "298081a2-b149-4061-8149-ec21bef85ebe",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Delete Attribute Definition",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_714" : {
+                      "type" : "label",
+                      "controlId" : "e3a0dbf6-1fe3-41bd-a9f6-ca4770999641",
+                      "accessRoles" : null,
+                      "controlData" : "<p>The record will be deleted.</p>",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_715" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "13c154c0-34de-4442-9260-ac7c94d23f8b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attribute_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "13c154c0-34de-4442-9260-ac7c94d23f8b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "e_attribute_deleted",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "13c154c0-34de-4442-9260-ac7c94d23f8b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete * from $framework.as_attribute_weightings where $id = :v_id",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_716" : {
+            "type" : "slideout",
+            "controlId" : "6b6ab973-4b62-4650-9cb4-f46617fbab2b",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_add_criteria",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6b6ab973-4b62-4650-9cb4-f46617fbab2b",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_add_criteria_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6b6ab973-4b62-4650-9cb4-f46617fbab2b",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add Criteria",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_717" : {
+                      "type" : "dropdown",
+                      "controlId" : "f51d11aa-7294-422b-baef-7aa0b799f801",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "f51d11aa-7294-422b-baef-7aa0b799f801",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_score_dropdown_attribute",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria_attribute_add"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "attribute"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "attribute"
+                      },
+                      "labelText" : "Attribute",
+                      "layoutSize" : null
+                    },
+                    "control_718" : {
+                      "type" : "dropdown",
+                      "controlId" : "0d66a533-c55b-41c1-820b-b7938eac9a32",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0d66a533-c55b-41c1-820b-b7938eac9a32",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_dropdown_score",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria_score_add"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "score"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "score"
+                      },
+                      "labelText" : "Score",
+                      "layoutSize" : null
+                    },
+                    "control_719" : {
+                      "type" : "input",
+                      "controlId" : "3b7e4e31-80e6-45f8-9faf-6063c12fa399",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria_add"
+                      } ],
+                      "labelText" : "Criteria",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_720" : {
+                      "type" : "input",
+                      "controlId" : "ede25bdb-0d07-4686-b380-77ddf4a672f9",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria_min_add"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_721" : {
+                      "type" : "input",
+                      "controlId" : "702af62a-ac71-4f2b-b823-4487761d5aea",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria_max_add"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_722" : {
+                      "type" : "button",
+                      "controlId" : "b33aa31f-c432-4d1d-a69e-ca32f0fa9815",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_add_criteria_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "b33aa31f-c432-4d1d-a69e-ca32f0fa9815",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_723" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "5f9d5d13-c935-404a-a976-c84b2edeed61",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_criteria_added",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "5f9d5d13-c935-404a-a976-c84b2edeed61",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "insert into $framework.as_attribute_scoring\n(attribute, weighting, criteria, min, max, score)\nvalues\n(:v_criteria_attribute_add, 1, :v_criteria_add, :v_criteria_min_add, :v_criteria_max_add, :v_criteria_score_add)",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_724" : {
+            "type" : "slideout",
+            "controlId" : "eaabb177-3e2e-4165-aab0-f97e3bcf05fa",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_edit_criteria",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "eaabb177-3e2e-4165-aab0-f97e3bcf05fa",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "e_attributes_updated",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "eaabb177-3e2e-4165-aab0-f97e3bcf05fa",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_edit_criteria_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "eaabb177-3e2e-4165-aab0-f97e3bcf05fa",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Criteria",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_725" : {
+                      "type" : "input",
+                      "controlId" : "06c28457-1d8d-4523-bfdd-36b037721eed",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_attribute"
+                      } ],
+                      "labelText" : "Attribute",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : null
+                    },
+                    "control_726" : {
+                      "type" : "dropdown",
+                      "controlId" : "4b605111-239a-4e2f-ae41-ffb5a1bf77f3",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4b605111-239a-4e2f-ae41-ffb5a1bf77f3",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_dropdown_score",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_score"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "score"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "score"
+                      },
+                      "labelText" : "Score",
+                      "layoutSize" : null
+                    },
+                    "control_727" : {
+                      "type" : "input",
+                      "controlId" : "5ce3374d-6ad6-4b76-8a0d-4149b552e3fc",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_criteria"
+                      } ],
+                      "labelText" : "Criteria",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_728" : {
+                      "type" : "input",
+                      "controlId" : "fb9b94e0-eb85-4393-8810-8b981017f60a",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attributes_updated",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "fb9b94e0-eb85-4393-8810-8b981017f60a",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ "validateNonEmpty" ],
+                        "preHandlerArgs" : [ { } ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_min"
+                      } ],
+                      "labelText" : "Min",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_729" : {
+                      "type" : "input",
+                      "controlId" : "75482e48-3b8b-4f5c-8487-1f6a185f09bb",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_max"
+                      } ],
+                      "labelText" : "Max",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_730" : {
+                      "type" : "button",
+                      "controlId" : "d0f7310a-3114-4757-a34d-aec12380c1b8",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_edit_criteria_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d0f7310a-3114-4757-a34d-aec12380c1b8",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_731" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "658b8d6f-098b-4c80-9b0e-83d62869e040",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_attributes_updated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "658b8d6f-098b-4c80-9b0e-83d62869e040",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "update $framework.as_attribute_scoring set weighting = :v_weighting, criteria = :v_criteria, min = :v_min, max = :v_max where $id = :v_id",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_732" : {
+            "type" : "variableConfigurator",
+            "controlId" : "9f5a10dd-e520-495e-8529-68b87903c9a5",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "9f5a10dd-e520-495e-8529-68b87903c9a5",
+              "handlers" : [ ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "e_plan_year_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "9f5a10dd-e520-495e-8529-68b87903c9a5",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_plan_year_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_plan_year"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Plan Year"
+          },
+          "control_733" : {
+            "type" : "variableConfigurator",
+            "controlId" : "a52db983-8303-4429-adec-45c495f8ead9",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a52db983-8303-4429-adec-45c495f8ead9",
+              "handlers" : [ ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "e_scenario_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "a52db983-8303-4429-adec-45c495f8ead9",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "schema" : null,
+              "seriesColors" : { },
+              "fields" : null,
+              "columns" : null
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Scenario",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING",
+            "staticValue" : "Iteration 1"
+          },
+          "control_734" : {
+            "type" : "variableConfigurator",
+            "controlId" : "722e610b-2ba9-4037-9699-7f52ac007be4",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "722e610b-2ba9-4037-9699-7f52ac007be4",
+              "handlers" : [ ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "e_attribute_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "722e610b-2ba9-4037-9699-7f52ac007be4",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_score_dropdown_attribute_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_attribute"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "attribute"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Attribute Details"
+          }
+        }
+      }
+    }
+  },
+  "title" : "Segment Configuration",
+  "versionName" : "1.0"
+}
