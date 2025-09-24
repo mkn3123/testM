@@ -1,0 +1,1574 @@
+{
+  "pageDefinitionId" : "0a46fca2-de69-4470-bfae-be93cb8e18bb",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_890" : {
+            "type" : "page_config",
+            "controlId" : "bb5d2361-c0f1-4a59-b940-bc7bef8548da",
+            "useGreyBackgroundPage" : true
+          },
+          "control_891" : {
+            "type" : "label",
+            "controlId" : "7180271a-f692-4045-832d-4dfbd551e065",
+            "accessRoles" : null,
+            "controlData" : "<p style=\"text-align: left;\"><img style=\"float: right;\" src=\"data:image/png;base64,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\" alt=\"\" width=\"215\" height=\"51\" /></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 24pt;\"><strong>Segment Modeling</strong></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 12pt;\"><strong><span style=\"color: #1d1c1d; font-family: Arial, sans-serif; font-weight: 400;\">Please select a Plan Year and Scenario to view the corresponding account segmentation modeling details.</span></strong></span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_892" : {
+            "type" : "label",
+            "controlId" : "8848ff91-f710-481f-8f5f-84d1a4e63017",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : null
+          },
+          "control_893" : {
+            "type" : "dropdown",
+            "controlId" : "0f73d11e-b7e5-4d9a-bfdf-65db4480a73b",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_default_plan_year",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0f73d11e-b7e5-4d9a-bfdf-65db4480a73b",
+              "handlers" : [ "assignCurrentVariable" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0f73d11e-b7e5-4d9a-bfdf-65db4480a73b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_time",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_plan_year"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "labelText" : "Plan Year",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_894" : {
+            "type" : "dropdown",
+            "controlId" : "bdcb4e28-cf02-4306-9922-93c5f33df43f",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_default_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bdcb4e28-cf02-4306-9922-93c5f33df43f",
+              "handlers" : [ "assignCurrentVariable" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bdcb4e28-cf02-4306-9922-93c5f33df43f",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_scenario",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "labelText" : "Scenario",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_895" : {
+            "type" : "label",
+            "controlId" : "398061bc-de6f-4516-917d-40762ea32a1d",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 50
+          },
+          "control_896" : {
+            "type" : "button",
+            "controlId" : "01c0daa2-e776-4c42-874f-c4ca4ebe86d8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_config_details",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "01c0daa2-e776-4c42-874f-c4ca4ebe86d8",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Configuration Details",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_897" : {
+            "type" : "chart",
+            "controlId" : "5b3e9a78-f445-4de9-96ee-d72560cc0824",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5b3e9a78-f445-4de9-96ee-d72560cc0824",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_chart_classification_enterprise",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "A" : "#177b8f",
+                "B" : "#66B6DE",
+                "C" : "#EDA20C",
+                "D" : "#83BD59"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "Enterprise",
+            "subtitle" : "Distribution of Classification for the Enterprise Segment",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "classification",
+            "yAxisFields" : [ "counter" ],
+            "layoutSize" : 25,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useGreyBackground" : false,
+              "useComponentShadow" : true
+            }
+          },
+          "control_898" : {
+            "type" : "chart",
+            "controlId" : "ef592eb3-2700-41d3-b0de-844564a69c90",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef592eb3-2700-41d3-b0de-844564a69c90",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_chart_classification_mid_market",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "A" : "#177b8f",
+                "B" : "#66B6DE",
+                "C" : "#EDA20C",
+                "D" : "#83BD59"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "Mid-Market",
+            "subtitle" : "Distribution of Classification for the Mid-Market Segment",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "classification",
+            "yAxisFields" : [ "counter" ],
+            "layoutSize" : 25,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useGreyBackground" : false,
+              "useComponentShadow" : true
+            }
+          },
+          "control_899" : {
+            "type" : "chart",
+            "controlId" : "1f0e5dd2-b90c-4998-a178-afb341b8206c",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1f0e5dd2-b90c-4998-a178-afb341b8206c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_chart_classification_smb",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "A" : "#177b8f",
+                "B" : "#66B6DE",
+                "C" : "#EDA20C",
+                "D" : "#83BD59"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "SMB",
+            "subtitle" : "Distribution of Classification for the SMB Segment",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "classification",
+            "yAxisFields" : [ "counter" ],
+            "layoutSize" : 25,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useGreyBackground" : false,
+              "useComponentShadow" : true
+            }
+          },
+          "control_900" : {
+            "type" : "chart",
+            "controlId" : "b790d18b-a46d-4618-8523-b69076151853",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "b790d18b-a46d-4618-8523-b69076151853",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_chart_classification_growth",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "B" : "#66B6DE",
+                "C" : "#EDA20C",
+                "D" : "#83BD59"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "Growth",
+            "subtitle" : "Distribution of Classification for the Growth Segment",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "classification",
+            "yAxisFields" : [ "counter" ],
+            "layoutSize" : 25,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useGreyBackground" : false,
+              "useComponentShadow" : true
+            }
+          },
+          "control_901" : {
+            "type" : "tile",
+            "controlId" : "511c32df-59a1-44b2-8b3b-2e0ef7b5236d",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "511c32df-59a1-44b2-8b3b-2e0ef7b5236d",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "511c32df-59a1-44b2-8b3b-2e0ef7b5236d",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "511c32df-59a1-44b2-8b3b-2e0ef7b5236d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_tile_num_accounts",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "# of Accounts",
+            "subtitleText" : "The total number of accounts",
+            "icon" : "Database",
+            "data" : "",
+            "column" : "num_accounts",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            }
+          },
+          "control_902" : {
+            "type" : "tile",
+            "controlId" : "98bf1c63-298c-4d32-9dbc-b76a09d86c7d",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "98bf1c63-298c-4d32-9dbc-b76a09d86c7d",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "98bf1c63-298c-4d32-9dbc-b76a09d86c7d",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "98bf1c63-298c-4d32-9dbc-b76a09d86c7d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_tile_avg_annual_rev",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Average Annual Revenue\t \t \t",
+            "subtitleText" : "The average annual revenue of the accounts",
+            "icon" : "File Blank",
+            "data" : "",
+            "column" : "avg_annual_revenue_ft",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            }
+          },
+          "control_903" : {
+            "type" : "tile",
+            "controlId" : "f948f013-6cfd-49ec-9971-b16ef02149b8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f948f013-6cfd-49ec-9971-b16ef02149b8",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f948f013-6cfd-49ec-9971-b16ef02149b8",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f948f013-6cfd-49ec-9971-b16ef02149b8",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_tile_total_historical_rev",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Average Historical Revenue",
+            "subtitleText" : "The average annual revenue  previously earned from the accounts",
+            "icon" : "Calendar Dates",
+            "data" : "",
+            "column" : "historical_rev_ft",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            }
+          },
+          "control_904" : {
+            "type" : "tile",
+            "controlId" : "640d242a-917f-4399-b67d-a3f4914da742",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "640d242a-917f-4399-b67d-a3f4914da742",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "640d242a-917f-4399-b67d-a3f4914da742",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "640d242a-917f-4399-b67d-a3f4914da742",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_tile_total_forecasted_rev",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Average Forecasted Revenue",
+            "subtitleText" : "The AI-generated average annual revenue forecasted to be earned from the accounts",
+            "icon" : "Calculator",
+            "data" : "",
+            "column" : "forecasted_rev_ft",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            }
+          },
+          "control_905" : {
+            "type" : "label",
+            "controlId" : "5639439d-c493-41c7-9e0e-3b01826667a4",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"font-size: 12pt;\"><strong>Segmentation Details</strong></span></p>\n<p><span style=\"font-size: 12pt; font-family: Arial, sans-serif; color: #1d1c1d;\">Please select the appropriate attributes to filter the KPIs and account details below.</span></p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_906" : {
+            "type" : "dropdown",
+            "controlId" : "ef12703b-6f50-4faa-8d5f-14fad2091583",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ef12703b-6f50-4faa-8d5f-14fad2091583",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef12703b-6f50-4faa-8d5f-14fad2091583",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef12703b-6f50-4faa-8d5f-14fad2091583",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_annual_revenue",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_annual_rev"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Annual Revenue",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_907" : {
+            "type" : "dropdown",
+            "controlId" : "de234da2-2904-4fcc-947e-6c97a718adca",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "de234da2-2904-4fcc-947e-6c97a718adca",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "de234da2-2904-4fcc-947e-6c97a718adca",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "de234da2-2904-4fcc-947e-6c97a718adca",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_forecasted_revenue",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_forecasted_revenue"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Forecasted Revenue",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_908" : {
+            "type" : "dropdown",
+            "controlId" : "bfe9d260-bc63-48c2-ae16-8d7c7f1b71f4",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "bfe9d260-bc63-48c2-ae16-8d7c7f1b71f4",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bfe9d260-bc63-48c2-ae16-8d7c7f1b71f4",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bfe9d260-bc63-48c2-ae16-8d7c7f1b71f4",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_industry",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_industry"
+            } ],
+            "isMultiSelect" : true,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Industry",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_909" : {
+            "type" : "dropdown",
+            "controlId" : "d0b5b8f7-c336-438b-a2a3-11d50ee3c48a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "d0b5b8f7-c336-438b-a2a3-11d50ee3c48a",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d0b5b8f7-c336-438b-a2a3-11d50ee3c48a",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d0b5b8f7-c336-438b-a2a3-11d50ee3c48a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_historical_revenue",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_historical_rev"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Historical Revenue",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_910" : {
+            "type" : "dropdown",
+            "controlId" : "0c08dd19-bf2a-443c-8d3a-31b2a449ea9d",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "0c08dd19-bf2a-443c-8d3a-31b2a449ea9d",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0c08dd19-bf2a-443c-8d3a-31b2a449ea9d",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0c08dd19-bf2a-443c-8d3a-31b2a449ea9d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_purchase_history",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_purchase_history"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Purchase History",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_911" : {
+            "type" : "dropdown",
+            "controlId" : "02c97a0f-241c-4340-ad28-ee2952142c8e",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "02c97a0f-241c-4340-ad28-ee2952142c8e",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "02c97a0f-241c-4340-ad28-ee2952142c8e",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "02c97a0f-241c-4340-ad28-ee2952142c8e",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_customer_behavior",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_customer_behevior"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "criteria"
+            },
+            "labelText" : "Customer Behavior",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_912" : {
+            "type" : "dropdown",
+            "controlId" : "73815257-fa07-4755-966e-0a4865b51aa8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "73815257-fa07-4755-966e-0a4865b51aa8",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "73815257-fa07-4755-966e-0a4865b51aa8",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "73815257-fa07-4755-966e-0a4865b51aa8",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_segment",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_segment"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "segment"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "segment"
+            },
+            "labelText" : "Segment",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_913" : {
+            "type" : "dropdown",
+            "controlId" : "ee23f1fa-85f5-4e04-be45-3a99efdb2eee",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ee23f1fa-85f5-4e04-be45-3a99efdb2eee",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee23f1fa-85f5-4e04-be45-3a99efdb2eee",
+              "handlers" : [ ],
+              "preHandlers" : [ "reset" ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee23f1fa-85f5-4e04-be45-3a99efdb2eee",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_classification",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_classification"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "classification"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "classification"
+            },
+            "labelText" : "Classification",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_914" : {
+            "type" : "button",
+            "controlId" : "5178e920-bf27-4be6-9790-78d567359f2a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_clear_filters",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "5178e920-bf27-4be6-9790-78d567359f2a",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Clear Filters",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_915" : {
+            "type" : "label",
+            "controlId" : "ff30732b-b440-4914-ba87-8fad275f0890",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 50
+          },
+          "control_916" : {
+            "type" : "label",
+            "controlId" : "902eda5b-b4b5-4c33-8e8e-3a30e0c2cf70",
+            "accessRoles" : null,
+            "controlData" : "",
+            "layoutSize" : 25
+          },
+          "control_917" : {
+            "type" : "table",
+            "controlId" : "248b00b4-f143-4269-83d0-35b35386dc41",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_filter_selected",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "248b00b4-f143-4269-83d0-35b35386dc41",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "e_clear_filters",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "248b00b4-f143-4269-83d0-35b35386dc41",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "248b00b4-f143-4269-83d0-35b35386dc41",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_grid_customer_attribution_main",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "account",
+              "name" : "account",
+              "headerName" : "Account",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "industry",
+              "name" : "industry",
+              "headerName" : "Industry",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "annual_revenue_ft",
+              "name" : "annual_revenue_ft",
+              "headerName" : "Annual Revenue",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "num_of_employees_ft",
+              "name" : "num_of_employees_ft",
+              "headerName" : "# of Employees",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "region",
+              "name" : "region",
+              "headerName" : "Region",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "state",
+              "name" : "state",
+              "headerName" : "State",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "city",
+              "name" : "city",
+              "headerName" : "City",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "zip",
+              "name" : "zip",
+              "headerName" : "Zip",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "historical_revenue_ft",
+              "name" : "historical_revenue_ft",
+              "headerName" : "Historical Revenue",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "forecasted_revenue_ft",
+              "name" : "forecasted_revenue_ft",
+              "headerName" : "Forecasted Revenue",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "purchase_history",
+              "name" : "purchase_history",
+              "headerName" : "Purchase History",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "customer_behaviour",
+              "name" : "customer_behaviour",
+              "headerName" : "Customer Behavior",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "unweighted_score",
+              "name" : "unweighted_score",
+              "headerName" : "Unweighted Score",
+              "dataType" : "decimal",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "weighted_score_ft",
+              "name" : "weighted_score_ft",
+              "headerName" : "Weighted Score",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "segment",
+              "name" : "segment",
+              "headerName" : "Segment",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "classification",
+              "name" : "classification",
+              "headerName" : "Classification",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            } ],
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "multiSelectEnabled" : true
+          },
+          "control_918" : {
+            "type" : "slideout",
+            "controlId" : "4602f224-cc50-4505-b366-7ee636cbf1e8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "e_config_details",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4602f224-cc50-4505-b366-7ee636cbf1e8",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Segment Configuration Details",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_919" : {
+                      "type" : "label",
+                      "controlId" : "13f78225-ab36-45f7-b21a-c55d86753038",
+                      "accessRoles" : null,
+                      "controlData" : "<p><strong>Segment Definition</strong></p>",
+                      "layoutSize" : null
+                    },
+                    "control_920" : {
+                      "type" : "list",
+                      "controlId" : "4d0eb9d0-3ee6-478d-979e-4ff104b152fd",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4d0eb9d0-3ee6-478d-979e-4ff104b152fd",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_score_grid_segment",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "criteria",
+                        "name" : "criteria",
+                        "headerName" : "Segment",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "min",
+                        "name" : "min",
+                        "headerName" : "Min",
+                        "dataType" : "decimal",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "max",
+                        "name" : "max",
+                        "headerName" : "Max",
+                        "dataType" : "decimal",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      } ],
+                      "variables" : [ ],
+                      "selectedField" : "",
+                      "selectedVariable" : ""
+                    },
+                    "control_921" : {
+                      "type" : "label",
+                      "controlId" : "31e54c6a-ccae-4a57-8440-21c51d87c8ad",
+                      "accessRoles" : null,
+                      "controlData" : "<p><strong>Segment Classification</strong></p>",
+                      "layoutSize" : null
+                    },
+                    "control_922" : {
+                      "type" : "list",
+                      "controlId" : "104cf42e-6189-4d3c-88ee-653041fa456c",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "104cf42e-6189-4d3c-88ee-653041fa456c",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_score_grid_classification",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "criteria",
+                        "name" : "criteria",
+                        "headerName" : "Classification",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "min",
+                        "name" : "min",
+                        "headerName" : "Min",
+                        "dataType" : "decimal",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "max",
+                        "name" : "max",
+                        "headerName" : "Max",
+                        "dataType" : "decimal",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      } ],
+                      "variables" : [ ],
+                      "selectedField" : "",
+                      "selectedVariable" : ""
+                    },
+                    "control_923" : {
+                      "type" : "label",
+                      "controlId" : "1189e848-4401-4820-8f58-f21f5810aa37",
+                      "accessRoles" : null,
+                      "controlData" : "<p><strong>Segment Attributes</strong></p>",
+                      "layoutSize" : null
+                    },
+                    "control_924" : {
+                      "type" : "list",
+                      "controlId" : "e6c66fe8-0948-49ac-b914-360d2158d8b7",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "e6c66fe8-0948-49ac-b914-360d2158d8b7",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "as_score_grid_weighting_summary",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "attribute",
+                        "name" : "attribute",
+                        "headerName" : "Attribute",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "weighting_ft",
+                        "name" : "weighting_ft",
+                        "headerName" : "Weight",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      } ],
+                      "variables" : [ ],
+                      "selectedField" : "",
+                      "selectedVariable" : ""
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_925" : {
+                      "type" : "button",
+                      "controlId" : "8b0f1f0c-c248-4475-9c2f-e1a5aa793ad9",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_config_details",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "8b0f1f0c-c248-4475-9c2f-e1a5aa793ad9",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Close",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_926" : {
+            "type" : "button",
+            "controlId" : "c44bc000-a175-4720-a8a2-5eb7808458da",
+            "accessRoles" : null,
+            "events" : [ ],
+            "controlData" : "Refresh Accounts",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            }
+          },
+          "control_927" : {
+            "type" : "variableConfigurator",
+            "controlId" : "935e2b05-cfd4-432a-9f85-1e15fe9bbd09",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "935e2b05-cfd4-432a-9f85-1e15fe9bbd09",
+              "handlers" : [ ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "e_default_plan_year",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "935e2b05-cfd4-432a-9f85-1e15fe9bbd09",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_plan_year_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_plan_year"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Plan Year"
+          },
+          "control_928" : {
+            "type" : "variableConfigurator",
+            "controlId" : "6cc7a30b-7c89-4382-bafb-8bd7d4b73731",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6cc7a30b-7c89-4382-bafb-8bd7d4b73731",
+              "handlers" : [ ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "e_default_scenario",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "6cc7a30b-7c89-4382-bafb-8bd7d4b73731",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_scenario_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Scenario"
+          }
+        }
+      }
+    }
+  },
+  "title" : "Segment Modeling",
+  "versionName" : "1.0"
+}
