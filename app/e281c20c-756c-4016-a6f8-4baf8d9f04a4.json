@@ -1,0 +1,1175 @@
+{
+  "pageDefinitionId" : "e281c20c-756c-4016-a6f8-4baf8d9f04a4",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "label",
+            "controlId" : "9e8f9401-73f1-4f3a-b61b-547856dfd940",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "<p><span style=\"font-size: 18pt;\">Plan Effectiveness</span></p>",
+            "layoutSize" : null,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_2" : {
+            "type" : "dropdown",
+            "controlId" : "09000938-df4c-4ccb-af08-3aee096ccf40",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "default_year",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "09000938-df4c-4ccb-af08-3aee096ccf40",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "assignCurrentVariable", "refresh" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "labelText" : "Year",
+            "layoutSize" : 16.66,
+            "shouldRenderHidden" : false
+          },
+          "control_3" : {
+            "type" : "dropdown",
+            "controlId" : "d76857ae-21f4-4e0b-801e-aca364c98c86",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "default_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d76857ae-21f4-4e0b-801e-aca364c98c86",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "assignCurrentVariable", "refresh" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d76857ae-21f4-4e0b-801e-aca364c98c86",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "PlanScenario_GetAllScenarios",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "name"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "name"
+            },
+            "labelText" : "Scenario",
+            "layoutSize" : 16.66,
+            "shouldRenderHidden" : false
+          },
+          "control_4" : {
+            "type" : "label",
+            "controlId" : "362d317e-a98a-41ff-953f-82df93ac61fa",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "",
+            "layoutSize" : 66.66,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_5" : {
+            "type" : "tile",
+            "controlId" : "f6cbcf13-b630-485b-a8d8-60c6283ba7f3",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6cbcf13-b630-485b-a8d8-60c6283ba7f3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f6cbcf13-b630-485b-a8d8-60c6283ba7f3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Variable Cost",
+            "subtitleText" : "Budget",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi1",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_6" : {
+            "type" : "tile",
+            "controlId" : "dcad5409-b4fa-41fe-8211-c5b1f352e549",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "dcad5409-b4fa-41fe-8211-c5b1f352e549",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "dcad5409-b4fa-41fe-8211-c5b1f352e549",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Performance",
+            "subtitleText" : "Budget",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi2",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_7" : {
+            "type" : "tile",
+            "controlId" : "456e082c-33a7-444f-b6d9-2c6817bd04d1",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "456e082c-33a7-444f-b6d9-2c6817bd04d1",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "456e082c-33a7-444f-b6d9-2c6817bd04d1",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Variable Cost % Of Performance",
+            "subtitleText" : "Budget",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi3",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_8" : {
+            "type" : "tile",
+            "controlId" : "6ef9bc85-c640-4e89-b47d-52c5ad7fc0dc",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6ef9bc85-c640-4e89-b47d-52c5ad7fc0dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "6ef9bc85-c640-4e89-b47d-52c5ad7fc0dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Variable Cost",
+            "subtitleText" : "Simulation",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi4",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_9" : {
+            "type" : "tile",
+            "controlId" : "dd10f217-9aa1-499a-aa40-1e7a4d569d57",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "dd10f217-9aa1-499a-aa40-1e7a4d569d57",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "dd10f217-9aa1-499a-aa40-1e7a4d569d57",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Performance",
+            "subtitleText" : "Simulation",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi5",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_10" : {
+            "type" : "tile",
+            "controlId" : "5a68fc07-f177-441f-ba4e-96d19116227d",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5a68fc07-f177-441f-ba4e-96d19116227d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "5a68fc07-f177-441f-ba4e-96d19116227d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Planning_EffectivenessKPI_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Variable Cost % Of Performance",
+            "subtitleText" : "Simulation",
+            "icon" : "No Icon",
+            "data" : "",
+            "column" : "kpi6",
+            "layoutSize" : 33.33,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_214" : {
+            "type" : "composedChart",
+            "controlId" : "b0fd6bce-46c3-4220-9f80-ee157dd14c3e",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : true,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "b0fd6bce-46c3-4220-9f80-ee157dd14c3e",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "b0fd6bce-46c3-4220-9f80-ee157dd14c3e",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "linearregression_bestfit",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "title" : "Pay Vs Performance",
+            "subtitle" : "Percent of Incentive Target earned at a reps attainment level",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "attainment",
+            "yAxisFields" : [ {
+              "id" : 3,
+              "dataKey" : "bestfitline",
+              "customLabel" : "Average",
+              "fill" : "#963276",
+              "selectedChart" : "line"
+            }, {
+              "id" : 2,
+              "dataKey" : "tic",
+              "customLabel" : "TIC",
+              "fill" : "#FA925A",
+              "selectedChart" : "scatter"
+            } ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_204" : {
+            "type" : "chart",
+            "controlId" : "d9b1f8e9-1426-40c3-be41-27fad3952e89",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d9b1f8e9-1426-40c3-be41-27fad3952e89",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_scenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d9b1f8e9-1426-40c3-be41-27fad3952e89",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "attainmentdistributionon",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d9b1f8e9-1426-40c3-be41-27fad3952e89",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "IPD_Attainment_Distribution_Default_Query",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "enterprise" : "#66B6DE",
+                "mid" : "#CC6AAD",
+                "smb" : "#EDA20C",
+                "growth" : "#83BD59"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "stackedColumn",
+            "title" : "Attainment Distribution",
+            "subtitle" : "Number of reps at each attainment level",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "attainment",
+            "yAxisFields" : [ "enterprise", "mid", "smb", "growth" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            }
+          },
+          "control_207" : {
+            "type" : "slideout",
+            "controlId" : "362f9eb0-d7da-4329-b8fa-6c3e4e235980",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "attainmentdistributionon",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "362f9eb0-d7da-4329-b8fa-6c3e4e235980",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "xxl",
+            "hasHeader" : true,
+            "hasFooter" : false,
+            "modalHeaderMessage" : "Header: ",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_208" : {
+                      "type" : "composedChart",
+                      "controlId" : "d70eb594-46df-45ff-84f5-083a9cf3e1ff",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d70eb594-46df-45ff-84f5-083a9cf3e1ff",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Regional_distribution_Graph_query",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "title" : "Employee vs Attainment NA-East",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "attainment",
+                      "yAxisFields" : [ {
+                        "id" : 4,
+                        "dataKey" : "emptotal",
+                        "customLabel" : "TotalCount",
+                        "fill" : "#EDA20C",
+                        "selectedChart" : "line"
+                      }, {
+                        "id" : 3,
+                        "dataKey" : "employees",
+                        "customLabel" : "Employee",
+                        "fill" : "#177b8f",
+                        "selectedChart" : "bar"
+                      } ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_209" : {
+                      "type" : "composedChart",
+                      "controlId" : "1290c7af-f1c7-45f3-ad57-dd8b2cd44816",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "1290c7af-f1c7-45f3-ad57-dd8b2cd44816",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Regional_distribution_Graph_query_Central",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "title" : "Employee vs Attainment NA-Central",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "attainment",
+                      "yAxisFields" : [ {
+                        "id" : 3,
+                        "dataKey" : "employees",
+                        "customLabel" : "Employees",
+                        "fill" : "#177b8f",
+                        "selectedChart" : "bar"
+                      }, {
+                        "id" : 4,
+                        "dataKey" : "emptotal",
+                        "customLabel" : "TotalCount",
+                        "fill" : "#EDA20C",
+                        "selectedChart" : "line"
+                      } ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_210" : {
+                      "type" : "composedChart",
+                      "controlId" : "a58b641a-4f71-49bf-a851-ea767802ec0c",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "a58b641a-4f71-49bf-a851-ea767802ec0c",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Regional_distribution_Graph_query_West",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "title" : "Employee vs Attainment NA-West",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "attainment",
+                      "yAxisFields" : [ {
+                        "id" : 3,
+                        "dataKey" : "employees",
+                        "customLabel" : "Employees",
+                        "fill" : "#177b8f",
+                        "selectedChart" : "bar"
+                      }, {
+                        "id" : 4,
+                        "dataKey" : "emptotal",
+                        "customLabel" : "TotalCount",
+                        "fill" : "#EDA20C",
+                        "selectedChart" : "line"
+                      } ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_211" : {
+                      "type" : "composedChart",
+                      "controlId" : "9fc0a779-22ab-4e86-a70f-29e15e5e37a0",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "9fc0a779-22ab-4e86-a70f-29e15e5e37a0",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Regional_distribution_Graph_query_EMEA",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "title" : "Employee vs Attainment EMEA",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "attainment",
+                      "yAxisFields" : [ {
+                        "id" : 3,
+                        "dataKey" : "employees",
+                        "customLabel" : "Employees",
+                        "fill" : "#177b8f",
+                        "selectedChart" : "bar"
+                      }, {
+                        "id" : 4,
+                        "dataKey" : "emptotal",
+                        "customLabel" : "TotalCount",
+                        "fill" : "#EDA20C",
+                        "selectedChart" : "line"
+                      } ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_213" : {
+                      "type" : "composedChart",
+                      "controlId" : "e5056bad-aa82-4596-a503-59fe245f8bec",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "e5056bad-aa82-4596-a503-59fe245f8bec",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Regional_distribution_Graph_query_APJ",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "title" : "Employee vs Attainment APJ",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "attainment",
+                      "yAxisFields" : [ {
+                        "id" : 3,
+                        "dataKey" : "employees",
+                        "customLabel" : "Employees",
+                        "fill" : "#177b8f",
+                        "selectedChart" : "bar"
+                      }, {
+                        "id" : 4,
+                        "dataKey" : "emptotal",
+                        "customLabel" : "TotalCount",
+                        "fill" : "#EDA20C",
+                        "selectedChart" : "line"
+                      } ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : { }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right",
+            "internalName" : "Regional Distribution"
+          },
+          "control_205" : {
+            "type" : "variableConfigurator",
+            "controlId" : "232e10eb-edb4-44ca-b271-0f20d24be523",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "232e10eb-edb4-44ca-b271-0f20d24be523",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "default_year",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "232e10eb-edb4-44ca-b271-0f20d24be523",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "vc year",
+            "staticValue" : "FY2025",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_206" : {
+            "type" : "variableConfigurator",
+            "controlId" : "5914494f-ecfa-40a3-87d1-6a9147283c3e",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5914494f-ecfa-40a3-87d1-6a9147283c3e",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "default_scenario",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "5914494f-ecfa-40a3-87d1-6a9147283c3e",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "vc scenario",
+            "staticValue" : "Current_Year_Actuals",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          }
+        }
+      }
+    }
+  },
+  "title" : "Plan Effectiveness",
+  "versionName" : "1.0"
+}
