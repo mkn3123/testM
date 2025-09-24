@@ -1,0 +1,2843 @@
+{
+  "pageDefinitionId" : "d70e3ef4-5c05-47c0-aaa9-0dacced3cb62",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "label",
+            "controlId" : "ab844a16-934b-4e19-9982-0d6b46e29941",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "<p><span style=\"font-size: 24pt;\">Quota Overlays</span></p>\n<hr />",
+            "layoutSize" : 91.66,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_75" : {
+            "type" : "button",
+            "controlId" : "3b1334e0-19ce-40d5-8b99-224883b9abe9",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "",
+            "layoutSize" : 8.33,
+            "buttonColorType" : "secondary",
+            "icon" : "Info Circle Filled",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          },
+          "control_86" : {
+            "type" : "label",
+            "controlId" : "4e944323-c5ff-4611-9639-add1b15682cc",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "<p><span style=\"font-size: 10pt;\"><em>Suggested Results / Actions &gt;&gt;&gt;</em></span></p>",
+            "layoutSize" : null,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_83" : {
+            "type" : "button",
+            "controlId" : "c3a9dea7-92f4-4cbf-b4ab-a335897b6e65",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "b1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c3a9dea7-92f4-4cbf-b4ab-a335897b6e65",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Max Quota Attainment Possible > 75 %",
+            "layoutSize" : 25,
+            "buttonColorType" : "tertiary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          },
+          "control_85" : {
+            "type" : "button",
+            "controlId" : "08749e6d-9773-4170-83db-6d3cb62140b4",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "b2",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "08749e6d-9773-4170-83db-6d3cb62140b4",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Avg Quota Attainment Possible >50%<",
+            "layoutSize" : 25,
+            "buttonColorType" : "tertiary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          },
+          "control_84" : {
+            "type" : "button",
+            "controlId" : "9f546383-e649-4217-bd41-4ad6ae81feb2",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "b3",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "9f546383-e649-4217-bd41-4ad6ae81feb2",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Least Quota Possible < 25%",
+            "layoutSize" : 25,
+            "buttonColorType" : "tertiary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          },
+          "control_87" : {
+            "type" : "button",
+            "controlId" : "632a74ec-924c-4290-8657-f99c6aa203c8",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "b3",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "632a74ec-924c-4290-8657-f99c6aa203c8",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Least Quota Possible < 25%",
+            "layoutSize" : 25,
+            "buttonColorType" : "tertiary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : true
+          },
+          "control_80" : {
+            "type" : "table",
+            "controlId" : "857c3c62-5966-4353-b930-e5848869eeca",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "857c3c62-5966-4353-b930-e5848869eeca",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "refresh", "hide" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "b1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "857c3c62-5966-4353-b930-e5848869eeca",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "b2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "857c3c62-5966-4353-b930-e5848869eeca",
+              "handlers" : [ "show", "refresh" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "b3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "857c3c62-5966-4353-b930-e5848869eeca",
+              "handlers" : [ "refresh", "show" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_2" : {
+            "type" : "dropdown",
+            "controlId" : "2d84921f-2d4e-4a63-945f-2660f215cfc1",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "2d84921f-2d4e-4a63-945f-2660f215cfc1",
+              "handlers" : [ "refresh", "assignCurrentVariable" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "herc_pt_dd",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_vc1"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "parent_terr"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "parent_terr"
+            },
+            "labelText" : "Parent Territory",
+            "layoutSize" : 25,
+            "shouldRenderHidden" : true
+          },
+          "control_36" : {
+            "type" : "variableConfigurator",
+            "controlId" : "f6562568-8887-44c2-add7-2dd45eae0a81",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6562568-8887-44c2-add7-2dd45eae0a81",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f6562568-8887-44c2-add7-2dd45eae0a81",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_vc1"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC1",
+            "staticValue" : "District 0015",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_3" : {
+            "type" : "dropdown",
+            "controlId" : "06d92a2f-1d54-4db6-a8ab-6f34d4bf33de",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "vc2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "06d92a2f-1d54-4db6-a8ab-6f34d4bf33de",
+              "handlers" : [ "refresh", "assignCurrentVariable" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "qc_quotatype_dropdown",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_vc2"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "qt"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "qt"
+            },
+            "labelText" : "Quota Type",
+            "layoutSize" : 25,
+            "shouldRenderHidden" : true
+          },
+          "control_37" : {
+            "type" : "variableConfigurator",
+            "controlId" : "c12fab1c-1f29-49c3-a103-97896e414b7f",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c12fab1c-1f29-49c3-a103-97896e414b7f",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc2",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c12fab1c-1f29-49c3-a103-97896e414b7f",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_vc2"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC2",
+            "staticValue" : "New Business",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_4" : {
+            "type" : "label",
+            "controlId" : "1384b85a-4519-4f17-a9e8-5b13024fa3b2",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "",
+            "layoutSize" : 50,
+            "intl" : false,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "helpIconValue" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_5" : {
+            "type" : "tile",
+            "controlId" : "7d43bd30-2ad5-4d79-946d-62abdb725ab9",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : true,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "7d43bd30-2ad5-4d79-946d-62abdb725ab9",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "master_qo_tile1",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Available Quota",
+            "subtitleText" : "",
+            "icon" : "Cubes",
+            "data" : "",
+            "column" : "available_quota",
+            "layoutSize" : 25,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_6" : {
+            "type" : "tile",
+            "controlId" : "07614b24-de60-4647-a0e3-f71452433945",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : true,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "07614b24-de60-4647-a0e3-f71452433945",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "07614b24-de60-4647-a0e3-f71452433945",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "07614b24-de60-4647-a0e3-f71452433945",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "master_qo_tile2",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Overlay Assigned",
+            "subtitleText" : "",
+            "icon" : "Align Justify",
+            "data" : "",
+            "column" : "assigned_quota",
+            "layoutSize" : 25,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_7" : {
+            "type" : "tile",
+            "controlId" : "e9c785fb-4da8-4175-85d7-812ad790aee7",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : true,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e9c785fb-4da8-4175-85d7-812ad790aee7",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "e9c785fb-4da8-4175-85d7-812ad790aee7",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "e9c785fb-4da8-4175-85d7-812ad790aee7",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "master_qo_tile3",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Unassigned Quota",
+            "subtitleText" : "",
+            "icon" : "Align Left",
+            "data" : "",
+            "column" : "unassigned",
+            "layoutSize" : 25,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_8" : {
+            "type" : "tile",
+            "controlId" : "1f4f9153-e450-47df-931a-e1ab9851c32c",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : true,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1f4f9153-e450-47df-931a-e1ab9851c32c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1f4f9153-e450-47df-931a-e1ab9851c32c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1f4f9153-e450-47df-931a-e1ab9851c32c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "master_qo_tile4",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "titleText" : "Unassigned (%)",
+            "subtitleText" : "",
+            "icon" : "Align Center",
+            "data" : "",
+            "column" : "unassigned_percent",
+            "layoutSize" : 25,
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosiiton" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_29" : {
+            "type" : "table",
+            "controlId" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "grid1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "yes3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "1b1ec5e3-2274-4ce0-89e5-b67a0639b4f2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "herc_main_grid2",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "overlay_owner",
+              "name" : "overlay_owner",
+              "headerName" : "Overlay Owner",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "no_of_territories",
+              "name" : "no_of_territories",
+              "headerName" : "No of Territories",
+              "dataType" : "long",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "quota",
+              "name" : "quota",
+              "headerName" : "Quota",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p1",
+              "name" : "sum_quota_p1",
+              "headerName" : "Quota p1",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p2",
+              "name" : "sum_quota_p2",
+              "headerName" : "Quota p2",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p3",
+              "name" : "sum_quota_p3",
+              "headerName" : "Quota p3",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p4",
+              "name" : "sum_quota_p4",
+              "headerName" : "Quota p4",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p5",
+              "name" : "sum_quota_p5",
+              "headerName" : "Quota p5",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p6",
+              "name" : "sum_quota_p6",
+              "headerName" : "Quota p6",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p7",
+              "name" : "sum_quota_p7",
+              "headerName" : "Quota p7",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p8",
+              "name" : "sum_quota_p8",
+              "headerName" : "Quota p8",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p9",
+              "name" : "sum_quota_p9",
+              "headerName" : "Quota p9",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p10",
+              "name" : "sum_quota_p10",
+              "headerName" : "Quota p10",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p11",
+              "name" : "sum_quota_p11",
+              "headerName" : "Quota p11",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sum_quota_p12",
+              "name" : "sum_quota_p12",
+              "headerName" : "Quota p12",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_overlay_owner",
+              "boundToField" : "overlay_owner"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_76" : {
+            "type" : "table",
+            "controlId" : "45eb9bd9-3d87-4e42-91f7-743f38de9dc8",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "45eb9bd9-3d87-4e42-91f7-743f38de9dc8",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "b",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "45eb9bd9-3d87-4e42-91f7-743f38de9dc8",
+              "handlers" : [ "exportAsCSV" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "master_overlay_acc1",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "name",
+              "name" : "name",
+              "headerName" : "name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$id",
+              "name" : "$id",
+              "headerName" : "$id",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$version",
+              "name" : "$version",
+              "headerName" : "$version",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_by",
+              "name" : "$created_by",
+              "headerName" : "$created_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_instant",
+              "name" : "$created_instant",
+              "headerName" : "$created_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_by",
+              "name" : "$modified_by",
+              "headerName" : "$modified_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_instant",
+              "name" : "$modified_instant",
+              "headerName" : "$modified_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "territory",
+              "name" : "territory",
+              "headerName" : "territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "account",
+              "name" : "account",
+              "headerName" : "account",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : true
+          },
+          "control_30" : {
+            "type" : "button",
+            "controlId" : "0f854e21-cf92-4fbe-a46a-023705b037c0",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "modal6",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "0f854e21-cf92-4fbe-a46a-023705b037c0",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Add Overlay Owner",
+            "layoutSize" : 16.66,
+            "buttonColorType" : "primary",
+            "icon" : "Plus",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          },
+          "control_31" : {
+            "type" : "modal",
+            "controlId" : "396eede2-1d95-4f18-bda3-dd40bf2b069c",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "modal6",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "396eede2-1d95-4f18-bda3-dd40bf2b069c",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "hide",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "396eede2-1d95-4f18-bda3-dd40bf2b069c",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "cancel",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "396eede2-1d95-4f18-bda3-dd40bf2b069c",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "sm",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_32" : {
+                      "type" : "input",
+                      "controlId" : "88ba5c21-6233-47fa-9cea-2782754c9aa6",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "hide",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "88ba5c21-6233-47fa-9cea-2782754c9aa6",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ ],
+                      "labelText" : "Enter Overlay Owner Name",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 100,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_33" : {
+                      "type" : "button",
+                      "controlId" : "c8659cbf-ce9c-49d2-8b3b-62b31947db85",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c8659cbf-ce9c-49d2-8b3b-62b31947db85",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null,
+                      "buttonColorType" : "secondary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_34" : {
+                      "type" : "button",
+                      "controlId" : "9efc609a-6f29-4b7b-845c-bec91524b77a",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "hide",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "9efc609a-6f29-4b7b-845c-bec91524b77a",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "layoutSize" : null,
+                      "buttonColorType" : "primary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_10" : {
+            "type" : "slideout",
+            "controlId" : "3b7ce183-5dea-4863-9f33-0bd5310b5a44",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "grid1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3b7ce183-5dea-4863-9f33-0bd5310b5a44",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "lg",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Assign Overlays",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_38" : {
+                      "type" : "input",
+                      "controlId" : "0fc6fe80-820a-4de1-9295-853c896cfa7d",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_overlay_owner"
+                      } ],
+                      "labelText" : "",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : null,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_12" : {
+                      "type" : "table",
+                      "controlId" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "grid1",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal_grid2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal4",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "70bac3e0-2b46-4e2d-99f2-5b48536e69f2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "master_modal_grid1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "assigned_territories",
+                        "name" : "assigned_territories",
+                        "headerName" : "Assigned Territories",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "amount",
+                        "name" : "amount",
+                        "headerName" : "Amount",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "start_date",
+                        "name" : "start_date",
+                        "headerName" : "Start Date",
+                        "dataType" : "any",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "end_date",
+                        "name" : "end_date",
+                        "headerName" : "End Date",
+                        "dataType" : "any",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      } ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ {
+                        "name" : "v_assigned_territories",
+                        "boundToField" : "assigned_territories"
+                      }, {
+                        "name" : "v_amount",
+                        "boundToField" : "amount"
+                      }, {
+                        "name" : "v_start_date",
+                        "boundToField" : "start_date"
+                      }, {
+                        "name" : "v_end_date",
+                        "boundToField" : "end_date"
+                      } ],
+                      "table" : "grid",
+                      "title" : "",
+                      "maxHeight" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_14" : {
+                      "type" : "table",
+                      "controlId" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "grid1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca7e9622-8966-49f9-947f-4f043a954008",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "master_modal_grid2",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "unassigned_territories",
+                        "name" : "unassigned_territories",
+                        "headerName" : "Unassigned Territories",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "amount",
+                        "name" : "amount",
+                        "headerName" : "Amount",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "start_date",
+                        "name" : "start_date",
+                        "headerName" : "Start Date",
+                        "dataType" : "any",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "end_date",
+                        "name" : "end_date",
+                        "headerName" : "End Date",
+                        "dataType" : "any",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      } ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ {
+                        "name" : "v_unassigned_territories",
+                        "boundToField" : "unassigned_territories"
+                      }, {
+                        "name" : "v_amount1",
+                        "boundToField" : "amount"
+                      }, {
+                        "name" : "v_start_date1",
+                        "boundToField" : "start_date"
+                      }, {
+                        "name" : "v_end_date1",
+                        "boundToField" : "end_date"
+                      } ],
+                      "table" : "grid",
+                      "title" : "",
+                      "maxHeight" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_15" : {
+                      "type" : "label",
+                      "controlId" : "a25a37f7-5e55-4e13-b83f-ef8d996df605",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "controlData" : "<p><span style=\"font-size: 11pt; font-family: Calibri, Arial;\" data-sheets-root=\"1\">Territories assigned to other owners</span></p>",
+                      "layoutSize" : null,
+                      "intl" : false,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "helpIconValue" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_13" : {
+                      "type" : "table",
+                      "controlId" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "grid1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal5",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal4",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "yes3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4e2d4a25-c4ea-453d-87e8-7187431e58d8",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "master_modal_grid3",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "assigned_territories",
+                        "name" : "assigned_territories",
+                        "headerName" : "Assigned Territories",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "amount",
+                        "name" : "amount",
+                        "headerName" : "Amount",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "owner",
+                        "name" : "owner",
+                        "headerName" : "Owner",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "start_date",
+                        "name" : "start_date",
+                        "headerName" : "Start Date",
+                        "dataType" : "date",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "end_date",
+                        "name" : "end_date",
+                        "headerName" : "End Date",
+                        "dataType" : "date",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      } ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ {
+                        "name" : "v1_assigned_territories",
+                        "boundToField" : "assigned_territories"
+                      }, {
+                        "name" : "v_amount2",
+                        "boundToField" : "amount"
+                      }, {
+                        "name" : "v_owner",
+                        "boundToField" : "owner"
+                      }, {
+                        "name" : "v_start_date2",
+                        "boundToField" : "start_date"
+                      }, {
+                        "name" : "v_end_date2",
+                        "boundToField" : "end_date"
+                      } ],
+                      "table" : "grid",
+                      "title" : "",
+                      "maxHeight" : null,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_39" : {
+                      "type" : "button",
+                      "controlId" : "5ba56fb4-d484-4c18-9953-c4567302307c",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "edit1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "5ba56fb4-d484-4c18-9953-c4567302307c",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Account Details",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "primary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_40" : {
+            "type" : "modal",
+            "controlId" : "276bd7a5-ac37-4f59-8217-50fecf313b46",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "edit1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "276bd7a5-ac37-4f59-8217-50fecf313b46",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "276bd7a5-ac37-4f59-8217-50fecf313b46",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Account Details",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_42" : {
+                      "type" : "table",
+                      "controlId" : "30ce14b6-70cf-4769-9e61-08d1ab86da7b",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "30ce14b6-70cf-4769-9e61-08d1ab86da7b",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "master_account_q",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "territory",
+                        "name" : "territory",
+                        "headerName" : "Territory",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      }, {
+                        "field" : "account",
+                        "name" : "account",
+                        "headerName" : "Account",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : false,
+                        "formattingStyle" : "default",
+                        "sortable" : false
+                      } ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ ],
+                      "table" : "grid",
+                      "title" : "",
+                      "maxHeight" : null,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_41" : {
+                      "type" : "button",
+                      "controlId" : "356ae465-95e3-4cae-8c7c-64dcb5d87897",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "edit2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "356ae465-95e3-4cae-8c7c-64dcb5d87897",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Close",
+                      "layoutSize" : null,
+                      "buttonColorType" : "primary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_16" : {
+            "type" : "slideout",
+            "controlId" : "44901c7f-a457-409b-96b5-75d5e60c2986",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "modal_grid2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "44901c7f-a457-409b-96b5-75d5e60c2986",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "hide1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "44901c7f-a457-409b-96b5-75d5e60c2986",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Set Dates",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_66" : {
+                      "type" : "input",
+                      "controlId" : "d2b04cc8-b526-40df-8d2b-6d0a9f1ef6ab",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_assigned_territories"
+                      } ],
+                      "labelText" : "Remove Assigned Territory?",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_67" : {
+                      "type" : "input",
+                      "controlId" : "dcd7982f-fac1-4931-abe5-6b1ebc0bb200",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_amount"
+                      } ],
+                      "labelText" : "Amount",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_48" : {
+                      "type" : "date",
+                      "controlId" : "f75c6271-2820-471e-bfab-1b482431279a",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_start_date"
+                      } ],
+                      "labelText" : "Start Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_47" : {
+                      "type" : "date",
+                      "controlId" : "11ba5eae-f3b8-4957-b512-34fa7bae2ea6",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_end_date"
+                      } ],
+                      "labelText" : "End Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_19" : {
+                      "type" : "button",
+                      "controlId" : "371fb7ae-9ba3-4e85-8702-45c58ccf1c20",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "hide1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "371fb7ae-9ba3-4e85-8702-45c58ccf1c20",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "tertiary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_18" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "a7bf0e19-8d64-40be-a96a-701f9be7b164",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "modal1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "a7bf0e19-8d64-40be-a96a-701f9be7b164",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "hide1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "a7bf0e19-8d64-40be-a96a-701f9be7b164",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal_grid2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "a7bf0e19-8d64-40be-a96a-701f9be7b164",
+                        "handlers" : [ "disable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "enable",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "a7bf0e19-8d64-40be-a96a-701f9be7b164",
+                        "handlers" : [ "enable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Set",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET \nstart_date =:v_start_date,\nend_date = :v_end_date\nWHERE territory = :v_assigned_territories",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "secondary",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_63" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "dcab8412-1ac6-4efd-b33c-8a63e9c642bd",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "yes2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "dcab8412-1ac6-4efd-b33c-8a63e9c642bd",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "enable",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "dcab8412-1ac6-4efd-b33c-8a63e9c642bd",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Remove",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET Overlay = NULL\n\nWHERE territory = :v_assigned_territories",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "primary",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_21" : {
+            "type" : "slideout",
+            "controlId" : "7ab06668-d2f3-481d-af83-f73bb22a5c6e",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "modal2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7ab06668-d2f3-481d-af83-f73bb22a5c6e",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "hide2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7ab06668-d2f3-481d-af83-f73bb22a5c6e",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Set Dates",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_69" : {
+                      "type" : "input",
+                      "controlId" : "3f878323-6845-4c29-a75f-154ddf8c6227",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_unassigned_territories"
+                      } ],
+                      "labelText" : "Assign to Owner?",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_70" : {
+                      "type" : "input",
+                      "controlId" : "f492dba2-a37c-41fb-b798-5e5eeff4fdde",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_amount1"
+                      } ],
+                      "labelText" : "Amount",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_45" : {
+                      "type" : "date",
+                      "controlId" : "acc59c17-a312-42fb-ae69-ba1d292d30c1",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_start_date1"
+                      } ],
+                      "labelText" : "Start Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_46" : {
+                      "type" : "date",
+                      "controlId" : "73807bd5-8ada-4b7c-bfc8-d745dae2bf68",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_end_date1"
+                      } ],
+                      "labelText" : "End Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_24" : {
+                      "type" : "button",
+                      "controlId" : "3fca56c4-c152-4804-bef2-da80f7e30174",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "hide2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "3fca56c4-c152-4804-bef2-da80f7e30174",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "tertiary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_23" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "708dea2f-2993-46f5-aa8c-281fcaeda656",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "modal3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "708dea2f-2993-46f5-aa8c-281fcaeda656",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "hide2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "708dea2f-2993-46f5-aa8c-281fcaeda656",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "modal2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "708dea2f-2993-46f5-aa8c-281fcaeda656",
+                        "handlers" : [ "disable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "enable1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "708dea2f-2993-46f5-aa8c-281fcaeda656",
+                        "handlers" : [ "enable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Set",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET \nstart_date =:v_start_date1,\nend_date = :v_end_date1\nWHERE territory = :v_unassigned_territories",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "secondary",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_64" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "53a4fdd7-6250-4910-9e13-54540b9f137b",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "yes1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "53a4fdd7-6250-4910-9e13-54540b9f137b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "enable1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "53a4fdd7-6250-4910-9e13-54540b9f137b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Assign",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET Overlay = :v_overlay_owner\n\nWHERE territory = :v_unassigned_territories",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "primary",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_25" : {
+            "type" : "slideout",
+            "controlId" : "800db30a-f425-447b-8816-519a7e56a7a5",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "modal5",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "800db30a-f425-447b-8816-519a7e56a7a5",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "hide3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "800db30a-f425-447b-8816-519a7e56a7a5",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_71" : {
+                      "type" : "input",
+                      "controlId" : "bbb17955-1317-48fa-bb45-022004188474",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v1_assigned_territories"
+                      } ],
+                      "labelText" : "Change Owner?",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_72" : {
+                      "type" : "input",
+                      "controlId" : "5adfbfb6-5dd4-49b3-952a-90941adc00c8",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_owner"
+                      } ],
+                      "labelText" : "Owner",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_73" : {
+                      "type" : "input",
+                      "controlId" : "eda8edb6-2bea-437a-9aac-030fb8f3c46e",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_amount2"
+                      } ],
+                      "labelText" : "Amount",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_74" : {
+                      "type" : "label",
+                      "controlId" : "9ddb9ddc-f73d-48ef-a1cd-4548f57759f1",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "controlData" : "",
+                      "layoutSize" : 50,
+                      "intl" : false,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "helpIconValue" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_49" : {
+                      "type" : "date",
+                      "controlId" : "a26847fc-345d-489f-bff2-652dbd7e2f5c",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_start_date2"
+                      } ],
+                      "labelText" : "Start Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_50" : {
+                      "type" : "date",
+                      "controlId" : "ef56f15f-8812-4c5a-967d-7d6077cffc95",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "v_end_date2"
+                      } ],
+                      "labelText" : "End Date",
+                      "layoutSize" : 50,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_27" : {
+                      "type" : "button",
+                      "controlId" : "80de3f5f-54a1-487d-826d-b517c0146a38",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "hide3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "80de3f5f-54a1-487d-826d-b517c0146a38",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "tertiary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_28" : {
+                      "type" : "xsqlWorkflowTrigger",
+                      "controlId" : "d1c9a049-b66d-4358-9a4f-5983a14f62d1",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "modal4",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d1c9a049-b66d-4358-9a4f-5983a14f62d1",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "hide3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d1c9a049-b66d-4358-9a4f-5983a14f62d1",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Set",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET \nstart_date =:v_start_date2,\nend_date = :v_end_date2\nWHERE territory = :v1_assigned_territories",
+                      "workflowXsql" : "",
+                      "workflowName" : "",
+                      "layoutSize" : 16.66,
+                      "buttonColorType" : "secondary",
+                      "shouldRenderHidden" : false,
+                      "shouldRunSync" : false
+                    },
+                    "control_65" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "c4ab46a6-f915-4536-9e45-715820c04d38",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "yes3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c4ab46a6-f915-4536-9e45-715820c04d38",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Reassign",
+                      "xSQL" : "UPDATE master_quotaoverlay_mastertable\n\nSET Overlay = :v_overlay_owner\n\nWHERE territory = :v1_assigned_territories",
+                      "layoutSize" : null,
+                      "buttonColorType" : "primary",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title" : "Test M",
+  "versionName" : "1.0"
+}
