@@ -1,0 +1,290 @@
+{
+  "pageDefinitionId" : "13ec3f93-019a-494e-8671-8754bbbaaf09",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_6" : {
+            "type" : "table",
+            "controlId" : "cefd8902-ffa5-4bf1-a033-21bde00c8132",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "cefd8902-ffa5-4bf1-a033-21bde00c8132",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Quota_Seasonality",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "q1",
+              "name" : "q1",
+              "headerName" : "q1",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "q2",
+              "name" : "q2",
+              "headerName" : "q2",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "q3",
+              "name" : "q3",
+              "headerName" : "q3",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "q4",
+              "name" : "q4",
+              "headerName" : "q4",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p1",
+              "name" : "p1",
+              "headerName" : "p1",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p2",
+              "name" : "p2",
+              "headerName" : "p2",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p3",
+              "name" : "p3",
+              "headerName" : "p3",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p4",
+              "name" : "p4",
+              "headerName" : "p4",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p5",
+              "name" : "p5",
+              "headerName" : "p5",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p6",
+              "name" : "p6",
+              "headerName" : "p6",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p7",
+              "name" : "p7",
+              "headerName" : "p7",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p8",
+              "name" : "p8",
+              "headerName" : "p8",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p9",
+              "name" : "p9",
+              "headerName" : "p9",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p10",
+              "name" : "p10",
+              "headerName" : "p10",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p11",
+              "name" : "p11",
+              "headerName" : "p11",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "p12",
+              "name" : "p12",
+              "headerName" : "p12",
+              "dataType" : "float",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "name",
+              "name" : "name",
+              "headerName" : "name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$id",
+              "name" : "$id",
+              "headerName" : "$id",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$version",
+              "name" : "$version",
+              "headerName" : "$version",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_by",
+              "name" : "$created_by",
+              "headerName" : "$created_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_instant",
+              "name" : "$created_instant",
+              "headerName" : "$created_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_by",
+              "name" : "$modified_by",
+              "headerName" : "$modified_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_instant",
+              "name" : "$modified_instant",
+              "headerName" : "$modified_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_2" : {
+            "type" : "button",
+            "controlId" : "ab3590d5-0e70-45c8-9175-efa29c9b45f6",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "exporton",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ab3590d5-0e70-45c8-9175-efa29c9b45f6",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Button",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          }
+        }
+      }
+    }
+  },
+  "title" : "test",
+  "versionName" : "1.0"
+}
